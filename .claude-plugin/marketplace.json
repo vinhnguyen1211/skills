@@ -1,0 +1,24 @@
+{
+  "name": "vinhnguyen1211-skills",
+  "id": "vinhnguyen1211-skills",
+  "owner": {
+    "name": "vinhnguyen1211"
+  },
+  "metadata": {
+    "description": "Claude Code skills by vinhnguyen1211",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "exploratory-work",
+      "source": "./",
+      "description": "Map territory and surface unknowns before implementing — delivers a structured report instead of jumping to code",
+      "version": "1.0.0",
+      "author": {
+        "name": "vinhnguyen1211"
+      },
+      "keywords": ["explore", "planning", "scoping", "research"],
+      "category": "workflow"
+    }
+  ]
+}
