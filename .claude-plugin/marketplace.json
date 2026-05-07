@@ -19,6 +19,17 @@
       },
       "keywords": ["explore", "planning", "scoping", "research"],
       "category": "workflow"
+    },
+    {
+      "name": "review-before-commit",
+      "source": "./",
+      "description": "Review staged files and propose a commit message before any git add or git commit runs — waits for explicit user approval",
+      "version": "1.0.0",
+      "author": {
+        "name": "vinhnguyen1211"
+      },
+      "keywords": ["git", "commit", "review", "workflow"],
+      "category": "workflow"
     }
   ]
 }
