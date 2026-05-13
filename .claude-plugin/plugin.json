@@ -1,11 +1,15 @@
 {
-  "name": "exploratory-work",
-  "description": "Map territory and surface unknowns before implementing — delivers a structured report instead of jumping to code",
+  "name": "vinhnguyen1211-skills",
+  "description": "Claude Code skills by vinhnguyen1211",
   "version": "1.0.0",
   "author": {
     "name": "vinhnguyen1211"
   },
   "license": "MIT",
-  "keywords": ["explore", "planning", "scoping", "research"],
-  "skills": ["./skills/exploratory-work", "./skills/review-before-commit", "./skills/merge-branch"]
+  "keywords": ["workflow", "git", "planning"],
+  "skills": [
+    "./skills/exploratory-work",
+    "./skills/review-before-commit",
+    "./skills/merge-branch"
+  ]
 }
