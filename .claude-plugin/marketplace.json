@@ -30,6 +30,17 @@
       },
       "keywords": ["git", "commit", "review", "workflow"],
       "category": "workflow"
+    },
+    {
+      "name": "merge-branch",
+      "source": "./",
+      "description": "Preview incoming commits and file changes before merging a branch — waits for explicit user approval before running git merge",
+      "version": "1.0.0",
+      "author": {
+        "name": "vinhnguyen1211"
+      },
+      "keywords": ["git", "merge", "review", "workflow"],
+      "category": "workflow"
     }
   ]
 }

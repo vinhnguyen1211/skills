@@ -7,5 +7,5 @@
   },
   "license": "MIT",
   "keywords": ["explore", "planning", "scoping", "research"],
-  "skills": ["./skills/exploratory-work", "./skills/review-before-commit"]
+  "skills": ["./skills/exploratory-work", "./skills/review-before-commit", "./skills/merge-branch"]
 }
