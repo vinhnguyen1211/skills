@@ -12,12 +12,12 @@
     {
       "name": "vinhnguyen1211-skills",
       "source": "./",
-      "description": "Git workflow and exploration skills: exploratory-work, review-before-commit, merge-branch",
+      "description": "Git workflow and exploration skills (exploratory-work, review-before-commit, merge-branch) and web search skills (ketch)",
       "version": "1.0.0",
       "author": {
         "name": "vinhnguyen1211"
       },
-      "keywords": ["workflow", "git", "planning"],
+      "keywords": ["workflow", "git", "planning", "search", "web"],
       "category": "workflow"
     }
   ]

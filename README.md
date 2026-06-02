@@ -41,3 +41,13 @@ Triggered when you say things like "commit this", "let's commit", "make a commit
 Triggered when you say things like "merge main", "merge into current branch", "bring in changes from X", or "sync with main." Claude identifies the source branch, then gathers facts with read-only git commands — without running `git merge`.
 
 **Expected output:** A merge preview showing the current and source branches, incoming commits (listed or summarized if more than 10), files that would change, anything worth flagging (potential conflicts, wrong-direction merges, dirty working tree), and the proposed merge approach (standard merge commit, `--ff-only`, or `--squash` with reasoning). Claude waits for you to reply `merge approved` before running the merge.
+
+---
+
+### [ketch](skills/ketch/SKILL.md)
+
+**Goal:** Fast, stateless web search, scraping, code search, and library doc lookups via the `ketch` CLI.
+
+Triggered when you say "use ketch", ask to search the web, scrape a URL, look up OSS code examples, or fetch library docs. Claude runs the appropriate `ketch` subcommand (`search`, `scrape`, `crawl`, `code`, or `docs`) and returns structured results.
+
+**Expected output:** Results inline in chat — search snippets, scraped markdown, code matches, or library documentation — depending on the subcommand used.

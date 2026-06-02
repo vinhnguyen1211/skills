@@ -6,10 +6,11 @@
     "name": "vinhnguyen1211"
   },
   "license": "MIT",
-  "keywords": ["workflow", "git", "planning"],
+  "keywords": ["workflow", "git", "planning", "search", "web"],
   "skills": [
     "./skills/exploratory-work",
     "./skills/review-before-commit",
-    "./skills/merge-branch"
+    "./skills/merge-branch",
+    "./skills/ketch"
   ]
 }
