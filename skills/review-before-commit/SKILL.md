@@ -22,7 +22,7 @@ A short message covering:
 2. **Files left out** — anything modified or untracked that you're *not* proposing to stage, with a one-line reason. Catches accidental omissions.
 3. **Proposed commit message** — a real draft, not a placeholder. Format:
    - Subject line: concise summary of the overall change.
-   - Body (skip for tiny commits like a one-line fix or typo): bullet list with `- ` prefix, one bullet per change included in the commit, each bullet 1–2 sentences max.
+   - Body (skip for tiny commits like a one-line fix or typo): bullet list with `- ` prefix, one bullet per change included in the commit, each bullet 1–2 sentences max. Prefer concise — omit the body when the subject line is self-contained.
 4. **Anything worth flagging** — secrets that look committed by accident, debug prints left in, unrelated changes mixed in, files that probably shouldn't be tracked.
 
 ## Then wait
