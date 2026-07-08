@@ -20,9 +20,9 @@ A short message covering:
 
 1. **Files that would be staged** — list them, grouped if it helps (e.g., "source changes" vs "tests" vs "config"). Note anything unusual: new files, deletions, renames, large diffs.
 2. **Files left out** — anything modified or untracked that you're *not* proposing to stage, with a one-line reason. Catches accidental omissions.
-3. **Proposed commit message** — a real draft, not a placeholder. Format:
-   - Subject line: concise summary of the overall change.
-   - Body (skip for tiny commits like a one-line fix or typo): bullet list with `- ` prefix, one bullet per change included in the commit, each bullet 1–2 sentences max. Prefer concise — omit the body when the subject line is self-contained.
+3. **Proposed commit message** — a real draft, not a placeholder. Prefer short and concise. Format:
+   - Subject line: concise summary of the overall change, ideally ≤50 chars, lowercased, no trailing period.
+   - Body (skip when the subject line is self-contained — tiny fixes, typos, one-line changes): bullet list with `- ` prefix, one bullet per change. Keep each bullet short — a phrase or one short sentence, not a paragraph. Omit the body by default; only include it when the subject line alone doesn't convey the change.
 4. **Anything worth flagging** — secrets that look committed by accident, debug prints left in, unrelated changes mixed in, files that probably shouldn't be tracked.
 
 ## Then wait

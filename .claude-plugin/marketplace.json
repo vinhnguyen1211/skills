@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "Claude Code skills by vinhnguyen1211",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
       "name": "vinhnguyen1211-skills",
       "source": "./",
       "description": "Git workflow and exploration skills (exploratory-work, review-before-commit, merge-branch) and web search skills (ketch)",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "vinhnguyen1211"
       },
